@@ -1,12 +1,26 @@
 body {
     margin: 0;
     background-color: #F1F1F1;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
 }
 
 header {
-    width: 100%;
     background-color: #ccc;
+    padding: 20px;
+    h1 {
+        text-align: center;
+        img {
+            width: 80%;
+        }
+    }
+    p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
