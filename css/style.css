@@ -11,7 +11,7 @@ header {
     h1 {
         text-align: center;
         img {
-            width: 100%;
+            width: 400px;
         }
     }
     p {
@@ -22,9 +22,12 @@ header {
 main {
     background-color: white;
     padding: 20px;
-    border-radius: 10px;
-    margin: 20px;
-    text-align: justify;
+    border-radius: 20px;
+    margin: 20px auto;
+    width: 1000px;
+    p, li {
+        text-align: justify;
+    }
     h1 {
         color: #222;
         text-align: center;
@@ -50,4 +53,29 @@ footer {
     color: yellow;
     padding: 20px;
     text-align: center;
+}
+
+@media (max-width: 460px) {
+    header {
+        width: 100%;
+        h1 {
+            img {
+                width: 200px;
+            }
+        }
+    }
+
+    main {
+        margin: 20px 20px;
+        width: 400px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    footer {
+        width: 100%;
+    }
+
 }
